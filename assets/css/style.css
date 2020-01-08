@@ -489,15 +489,11 @@ h2.banner-submain {
         text-align: center;
     }
 
-    .logo h3 {
+    .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Sirin Stencil', cursive;
-    }
-
-    .logo h3 a {
-        text-decoration: none;
     }
 
     .nav-links a {
