@@ -16,12 +16,12 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="nav-sticky navbar" id="navbar">
+    <nav class="nav-sticky navbar">
         <div class="logo" id="logo">
             <h3>Ryan Michael</h3>
         </div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
+            <li><a class="active" href="#home" class="section">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#works">Works</a></li>
@@ -35,52 +35,65 @@
         </div>
         <!-- //Mobile menu -->
     </nav>
+
     <!-- Target Areas -->
-    <section class="banner-area" id="home">
+    <section class="banner-area section" id="home">
         <div class="banner-intro">
-            <h1 class="banner-main" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">Ryan Michael Nasalinas</h1>
+            <h1 class="banner-main" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">Ryan Michael Nasalinas</h1>
             <h2 class="banner-submain" id="banner-submain"></h2>
-            <a class="btn btn-works" href="#works">View My Works</a>
+            <a class="btn btn-works">View My Works</a>
         </div>
     </section>
-    <div id="about" style="display:hidden;margin-bottom:50px;"></div>
-    <div class="container-about" >
+
+    <section class="container-about">
         <div class="row">
-            <h1 class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-offset="300" data-aos-easing="ease-in-sine">About Me</h1>
-            <div class="column-33" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="column-33" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <img src="images/my_image.jpg" alt="" class="about-img">
             </div>
-            <div class="column-66 about-column" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <div class="about-sentence">
+
+            <div class="column-66 about-column" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="about-sentence section" id="about">
+                    <h1 class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">About Me</h1>
                     <h2 class="about-me-sub-heading">Thank you for viewing my profile</h2>
                     <p class="about-me">
-                        Hi I`m Ryan, currently residing in Quezon City and currently working as a website developer in a BPO Company in Ortigas, but before working as web developer i also work on some several companies here in the philippines. 
+                        Hi I`m Ryan, currently residing in Quezon City and currently working as a website developer in a
+                        BPO Company in Ortigas, but before working as web developer i also work on some several
+                        companies here in the philippines.
                     </p>
                     <p class="about-me">
-                        I`ve finished my studies at <a href="https://icct.edu.ph/" target="_blank" style="text-decoration:underline;font-weight:bold;color:blue">ICCT Colleges Foundation Inc.</a> were i took BS Information Technology.
+                        I`ve finished my studies at <a href="https://icct.edu.ph/" target="_blank"
+                            style="text-decoration:underline;font-weight:bold;color:blue">ICCT Colleges Foundation
+                            Inc.</a> were i took BS Information Technology.
                     </p>
                     <p class="about-me">
-                        In my free time, aside from learning new things and watching videos tutorials about programming,I play games like NBA2K20, GTA V, Resident evil, Prototype, Mobile Legends and Call Of Duty (Mobile), playing games keeps relaxed and refresh, sometimes i
+                        In my free time, aside from learning new things and watching videos tutorials about
+                        programming,I play games like NBA2K20, GTA V, Resident evil, Prototype, Mobile Legends and Call
+                        Of Duty (Mobile), playing games keeps relaxed and refresh, sometimes i
                         also like to watch movies.
                     </p>
-                    <p class="about-me" style="text-align:center"> 
+                    <p class="about-me" style="text-align:center">
                         <span style="border:1px solid black;padding:10px;border-radius:5px">
-                         Download my CV <a href="download/ryanmichaelnasalinas_cv.pdf" download style="text-decoration:none"
-                            class="btn-resume">Download</a>
+                            Download my CV <a href="download/ryanmichaelnasalinas_cv.pdf" download
+                                style="text-decoration:none" class="btn-resume">Download</a>
                         </span>
                     </p>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="skills" style="display:hidden;margin-bottom:50px;"></div>
+    </section>
     <section class="container">
-        <div class="row">
+        <div class="row section" id="skills">
             <div class="skills-area">
                 <div class="text-part">
-                    <h1 style="color:white;" class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">My Skills</h1>
+                    <h1 style="color:white;" class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="1500"
+                        data-aos-offset="300" data-aos-easing="ease-in-sine">My Skills</h1>
                     <div class="row" style="text-align:center;">
-                        <div class="column-50" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="column-50" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="card">
                                 <div class="header">
                                     <img src="icons/code.png">
@@ -105,7 +118,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column-50" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="column-50" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div class="card">
                                 <div class="header">
                                     <img src="icons/code.png">
@@ -135,13 +149,16 @@
                 </div>
             </div>
         </div>
-    <div id="works" style="display:hidden;margin-bottom:60px;"></div>
-        <div class="portfolio_main">
-            <div style="text-align:center" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="portfolio_main section" id="works">
+            <div style="text-align:center" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <h1 class="about-me-heading">My Works</h1>
-                <p>You can also visit my <a href="https://github.com/RyanMichaelNasalinas" style="font-weight:bold;color:blue;text-decoration:none;" target="_blank">github profile</a> for my other works, Thank you!</p>
+                <p>You can also visit my <a href="https://github.com/RyanMichaelNasalinas"
+                        style="font-weight:bold;color:blue;text-decoration:none;" target="_blank">github profile</a> for
+                    my other works, Thank you!</p>
             </div>
-            <div class="portfolio_row" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="portfolio_row" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <!-- Portfolio Gallery Grid -->
                 <div class="portfolio_column">
                     <div class="portfolio_content">
@@ -157,7 +174,9 @@
                             <li>JQuery</li>
                             <li>JavaScript</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/User-Management-System" target="_blank">link</a></p>
+                        <p class="portfolio-center">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/User-Management-System"
+                                target="_blank">link</a></p>
                     </div>
                 </div>
                 <div class="portfolio_column">
@@ -174,7 +193,9 @@
                             <li>JQuery</li>
                             <li>JavaScript</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/PHP-Gallery_System" target="_blank">link</a></p>
+                        <p class="portfolio-center">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/PHP-Gallery_System"
+                                target="_blank">link</a></p>
 
                     </div>
                 </div>
@@ -192,7 +213,8 @@
                             <li>JQuery</li>
                             <li>JavaScript</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/Article_System" target="_blank">link</a>
+                        <p class="portfolio-center">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/Article_System" target="_blank">link</a>
                         </p>
                     </div>
                 </div>
@@ -210,13 +232,15 @@
                             <li>JQuery</li>
                             <li>JavaScript</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/SharingApp" target="_blank">link</a>
+                        <p class="portfolio-center">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/SharingApp" target="_blank">link</a>
                         </p>
                     </div>
                 </div>
                 <!-- END GRID -->
             </div>
-            <div class="portfolio_row" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="portfolio_row" data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <!-- Portfolio Gallery Grid -->
                 <div class="portfolio_column">
                     <div class="portfolio_content">
@@ -232,7 +256,9 @@
                             <li>JQuery</li>
                             <li>JavaScript</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/PHP-Content-Management-System-" target="_blank">link</a></p>
+                        <p class="portfolio-center">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/PHP-Content-Management-System-"
+                                target="_blank">link</a></p>
                     </div>
                 </div>
                 <div class="portfolio_column">
@@ -246,20 +272,26 @@
                             <li>JavaScript</li>
                             <li>Animate on Scroll Library</li>
                         </ul>
-                        <p class="portfolio-center">Repository in this <a href="https://github.com/RyanMichaelNasalinas/RyanMichaelNasalinas.github.io" target="_blank">link</a>
+                        <p class="portfolio-center section" id="contact">Repository in this <a
+                                href="https://github.com/RyanMichaelNasalinas/RyanMichaelNasalinas.github.io"
+                                target="_blank">link</a>
+
                         </p>
                     </div>
                 </div>
                 <!-- END GRID -->
             </div>
         </div>
+
         <div class="row">
-            <div class="contact-area" id="contact">
+            <div class="contact-area">
                 <div class="text-part">
-                    <h1 style="color:white" class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h1 style="color:white" class="about-me-heading" data-aos="fade-zoom-in" data-aos-duration="1500"
+                        data-aos-offset="300" data-aos-easing="ease-in-sine">
                         Contact Info
                     </h1>
-                    <div class="column" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="column" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="card">
                             <div class="content">
                                 <div class="title" style="color:blue;">Contact Me:</div>
@@ -280,9 +312,10 @@
                                         </a>
                                         <a href="https://github.com/RyanMichaelNasalinas" target="_blank">
                                             <img src="https://img.icons8.com/ios-filled/48/000000/github.png">
-                                        <a href="https://www.linkedin.com/in/ryan-michael-nasalinas-698949144/" target="_blank">
-                                            <img src="https://img.icons8.com/color/48/000000/linkedin.png">
-                                        </a>
+                                            <a href="https://www.linkedin.com/in/ryan-michael-nasalinas-698949144/"
+                                                target="_blank">
+                                                <img src="https://img.icons8.com/color/48/000000/linkedin.png">
+                                            </a>
                                     </p>
 
                                 </div>
@@ -296,10 +329,12 @@
     </section>
     <!-- //Target Areas -->
     <footer class="footer">
-        &copy; <span style="font-weight:bold;">Ryan Michael Nasalinas</span> <span id="year"></span>. <span>All Rights Reserved</span>
+        &copy; <span style="font-weight:bold;">Ryan Michael Nasalinas</span> <span id="year"></span>. <span>All Rights
+            Reserved</span>
     </footer>
-    
+
     <script src="aos-master/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

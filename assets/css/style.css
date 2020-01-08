@@ -10,6 +10,7 @@ body {
 * {
     box-sizing: border-box;
 }
+
 /* Navbar */
 
 nav {
@@ -31,7 +32,7 @@ nav {
 .nav-sticky {
     position: fixed;
     top: 0;
-    width:100%;
+    width: 100%;
     z-index: 1;
 }
 
@@ -64,6 +65,13 @@ nav {
     transition: 1s;
 }
 
+.nav-links li a.active {
+    color: orange;
+    border-bottom: 5px solid orange;
+}
+
+
+
 /* //Navbar */
 
 /* Mobile Menu */
@@ -91,6 +99,7 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
 /* //Mobile Menu */
 
 a:hover {
@@ -133,20 +142,20 @@ p {
 }
 
 .about-me-heading {
-    font-size:50px;
+    font-size: 50px;
     font-family: 'Playfair Display SC',
-    serif;
+        serif;
 }
 
 .about-me-sub-heading {
     font-family: 'Taviraj',
-    serif;
+        serif;
 }
 
 .about-column {
     border: 1px solid lightgray;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flex-col {
@@ -175,6 +184,7 @@ p {
 .portfolio-center {
     text-align: center;
 }
+
 /* Column Design */
 
 .column-66 {
@@ -190,20 +200,20 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
-    
+
 }
 
 .column-33 .about-img:hover {
-      box-shadow: 0 4px 8px 0 #2c3e50,
-      0 6px 20px 0 #2c3e50;
-      transition: 0.5s;
+    box-shadow: 0 4px 8px 0 #2c3e50,
+        0 6px 20px 0 #2c3e50;
+    transition: 0.5s;
 }
 
 .column-66 .about-me {
     font-size: 18px;
     text-align: justify;
     font-family: 'Taviraj',
-    serif;
+        serif;
 }
 
 .column-66 .accounts {
@@ -254,6 +264,7 @@ p {
 .column .content .skills li img {
     margin: 10px;
 }
+
 /* //End About */
 
 .skills-area,
@@ -275,6 +286,7 @@ p {
     margin: auto;
     width: 50%;
 }
+
 /* Body Area */
 
 
@@ -303,6 +315,7 @@ p {
     clear: both;
     display: table;
 }
+
 /* //Responsive web design */
 
 
@@ -318,7 +331,7 @@ p {
     margin-top: 20px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Taviraj',serif;
+    font-family: 'Taviraj', serif;
 }
 
 .card .content ul li {
@@ -327,15 +340,17 @@ p {
     margin: 0px;
     display: inline;
 }
+
 /* //Card Design */
 
 
 /* Footer */
 .footer {
-    background-color:rgba(217, 217, 217,0.5);
+    background-color: rgba(217, 217, 217, 0.5);
     padding: 50px;
     text-align: center;
 }
+
 /* //Footer */
 
 
@@ -345,6 +360,7 @@ html {
     -webkit-scroll-behavior: smooth;
     -moz-scroll-behavior: smooth;
 }
+
 /* //For Smooth Scrolling */
 
 
@@ -383,10 +399,11 @@ html {
 }
 
 .btn-resume:hover {
-    background-color:#3498db;
+    background-color: #3498db;
     color: white;
     transition: background-color 1s;
 }
+
 /* //Button Design */
 
 /* Banner Text Designs */
@@ -401,10 +418,11 @@ h2.banner-submain {
 
 .banner-intro .btn {
     font-size: 1.5rem;
-     border-radius: 5px;
-     font-family: 'Taviraj',
-     serif;
+    border-radius: 5px;
+    font-family: 'Taviraj',
+        serif;
 }
+
 /* //Banner Text Designs */
 
 /* Portfolio */
@@ -438,6 +456,7 @@ h2.banner-submain {
     background-color: white;
     padding: 10px;
 }
+
 /* //Portfolio */
 
 
@@ -450,6 +469,7 @@ h2.banner-submain {
     .nav-links {
         width: 50%;
     }
+
     .banner-area {
         display: flex;
         justify-content: center;
@@ -462,17 +482,20 @@ h2.banner-submain {
         -webkit-background-size: cover;
         color: white;
     }
+
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
         text-align: center;
     }
+
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Sirin Stencil', cursive;
     }
+
     .nav-links a {
         color: white;
         text-decoration: none;
@@ -481,10 +504,12 @@ h2.banner-submain {
         font-size: 19px;
         text-transform: uppercase;
     }
+
     .flex-about {
         width: 100%;
         display: block;
     }
+
     .flex-about .flex-col img {
         width: 100%;
         display: block;
@@ -496,6 +521,7 @@ h2.banner-submain {
     .nav-links {
         width: 40%;
     }
+
     .banner-area {
         display: flex;
         justify-content: center;
@@ -508,11 +534,13 @@ h2.banner-submain {
         -webkit-background-size: cover;
         color: white;
     }
+
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
         text-align: center;
     }
+
     .logo {
         color: white;
         text-transform: uppercase;
@@ -520,6 +548,7 @@ h2.banner-submain {
         font-size: 20px;
         font-family: 'Sirin Stencil', cursive;
     }
+
     .nav-links a {
         color: white;
         text-decoration: none;
@@ -527,6 +556,7 @@ h2.banner-submain {
         font-weight: bold;
         text-transform: uppercase;
     }
+
     .column-66 .about-sentence {
         margin-top: 0px;
     }
@@ -536,10 +566,12 @@ h2.banner-submain {
     .nav-links {
         width: 60%;
     }
+
     .container {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
     .banner-area {
         display: flex;
         justify-content: center;
@@ -552,17 +584,20 @@ h2.banner-submain {
         -webkit-background-size: cover;
         color: white;
     }
+
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
         text-align: center;
     }
+
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Sirin Stencil', cursive;
     }
+
     .nav-links a {
         color: white;
         text-decoration: none;
@@ -571,32 +606,40 @@ h2.banner-submain {
         font-size: 18px;
         text-transform: uppercase;
     }
+
     .flex-about {
         width: 100%;
         display: block;
     }
+
     .flex-about .flex-col img {
         width: 100%;
         display: block;
     }
+
     h1.banner-main {
         font-size: 40px;
     }
+
     h2.banner-submain {
         font-size: 20px;
     }
+
     .banner-intro .btn {
         font-size: 1rem;
-         border-radius: 5px;
-         font-family: 'Taviraj',
-         serif;
+        border-radius: 5px;
+        font-family: 'Taviraj',
+            serif;
     }
+
     .column-66 .about-sentence {
         margin-top: 0px;
     }
+
     .column-66 .about-sentence h2 {
         font-size: 22px;
     }
+
     .column-66 .about-sentence p {
         font-size: 18px;
     }
@@ -609,10 +652,12 @@ h2.banner-submain {
 }
 
 @media screen and (max-width:768px) {
+
     html,
     body {
         overflow-x: hidden;
     }
+
     .banner-area {
         display: flex;
         justify-content: center;
@@ -625,11 +670,13 @@ h2.banner-submain {
         -webkit-background-size: cover;
         color: white;
     }
+
     .banner-area>.banner-intro {
         position: absolute;
         top: 50px;
         text-align: center;
     }
+
     .nav-links {
         position: absolute;
         right: 0;
@@ -644,18 +691,22 @@ h2.banner-submain {
         transition: transform 0.5s ease-out;
         z-index: 1;
     }
+
     .nav-links li {
         opacity: 0;
     }
+
     .burger {
         display: block;
     }
+
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Sirin Stencil', cursive;
     }
+
     .nav-links a {
         color: white;
         text-decoration: none;
@@ -664,58 +715,70 @@ h2.banner-submain {
         font-size: 16px;
         text-transform: uppercase;
     }
+
     .flex-about {
         width: 100%;
         display: block;
     }
+
     .flex-about .flex-col img {
         width: 100%;
         display: block;
     }
+
     .column-66,
     .column-33 {
         width: 100%;
         text-align: center;
         display: flex;
     }
+
     .container-about {
         padding: 0px;
     }
+
     .column-66 .about-sentence {
         margin-top: 0px;
     }
+
     .column-66 h2 {
         font-size: 24px;
         text-indent: 20px;
     }
+
     .column-66 .about-me {
         font-size: 17px;
-       font-family: 'Taviraj',
-       serif;
+        font-family: 'Taviraj',
+            serif;
     }
 
     .column .accounts {
         margin-top: 50px;
     }
+
     .column-50 {
         width: 100%;
         text-align: center;
         padding: 5px 5px;
     }
+
     .column {
         padding: 5px 5px;
     }
+
     .contact-area .text-part .contact-info p {
         text-align: center;
         font-size: 90%;
     }
+
     .about-me-heading {
         font-size: 30px;
     }
+
     .about-column {
-         border: none;
-         border-radius: 0;
-         box-shadow: 0px 0px;
+        border: none;
+        border-radius: 0;
+        box-shadow: 0px 0px;
     }
 }
 
@@ -723,10 +786,12 @@ h2.banner-submain {
     .nav-links {
         width: 100%;
     }
+
     .container {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
     .banner-area {
         display: flex;
         justify-content: center;
@@ -739,18 +804,21 @@ h2.banner-submain {
         -webkit-background-size: cover;
         color: white;
     }
+
     .banner-area>.banner-intro {
         position: absolute;
         top: 60px;
         text-align: center;
         padding: 5px;
     }
+
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Sirin Stencil', cursive;
     }
+
     .nav-links a {
         color: white;
         text-decoration: none;
@@ -758,30 +826,37 @@ h2.banner-submain {
         font-weight: bold;
         font-size: 16px;
     }
+
     .flex-about {
         width: 100%;
         display: block;
     }
+
     .flex-about .flex-col img {
         width: 100%;
         display: block;
     }
+
     .column-50 {
         width: 100%;
         text-align: center;
     }
+
     h1.banner-main {
         font-size: 40px;
     }
+
     h2.banner-submain {
         font-size: 20px;
     }
+
     .banner-intro .btn {
         font-size: 1rem;
         border-radius: 5px;
         font-family: 'Taviraj',
-        serif;
+            serif;
     }
+
     .portfolio_column {
         width: 100%;
     }
@@ -797,15 +872,16 @@ h2.banner-submain {
         justify-content: center;
         position: relative;
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         background-image: linear-gradient(45deg, #2c3e50, #3498db);
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
         color: white;
     }
-   
+
 }
+
 /*  //Media Query */
 
 /* Animation */
@@ -814,14 +890,17 @@ h2.banner-submain {
         opacity: 0;
         transform: translateY(50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0px);
     }
 }
+
 /* Toggle this class using JavaScript */
 .nav-active {
     transform: translateY(0%);
     background-image: linear-gradient(90deg, #525252, #3d72b4);
 }
+
 /* End */

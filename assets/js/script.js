@@ -2,7 +2,6 @@
 AOS.init();
 
 AOS.refreshHard();
-
 // You can also pass an optional settings object
 // below listed default settings
 AOS.init({
@@ -28,19 +27,36 @@ AOS.init({
 
 });
 
-// Navbar on scroll
+// Navbar Toggle Active Status
+function scroll() {
 
-var nav = document.getElementById('navbar');
+    var section = document.querySelectorAll(".section");
+    var nav = document.querySelector('.navbar');
+    var sections = {};
+    var i = 0;
 
-window.onscroll = function() {
-    //page Y offset or Scroll Y
-    if(window.pageYOffset > 0) {
-        nav.classList.add('scrolled'); 
-    } else {
-        nav.classList.remove('scrolled');
+    Array.prototype.forEach.call(section, function (e) {
+        sections[e.id] = e.offsetTop;
+    });
+
+    window.onscroll = function () {
+        var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+        for (i in sections) {
+            if (sections[i] <= scrollPosition) {
+                document.querySelector('.active').setAttribute('class', ' ');
+                document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
+            }
+        }
+
+        //Change Color Navigation Bar
+        if (window.pageYOffset > 0) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
     }
-}
-
+} scroll();
 
 //Select the navigation class
 const navSlide = () => {
@@ -48,13 +64,13 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
     //Toggle Nav
-    burger.addEventListener('click',() => {
+    burger.addEventListener('click', () => {
         //Toggle Nav
         nav.classList.toggle('nav-active');
-        
+
         //Animate Links
-        navLinks.forEach((link,index) => {
-            if(link.style.animation) {
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
                 link.style.animation = '';
             } else {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5 + 0.3}s`;
@@ -65,17 +81,15 @@ const navSlide = () => {
     });
 }
 
-
-
+// Banner Typing Effect
 var i = 0;
 var text = "Dreamer + Passionate + Hard Working + Continous Learner";
 
 function typing() {
-
-    if(i < text.length) {
+    if (i < text.length) {
         document.getElementById('banner-submain').innerHTML += text.charAt(i);
         i++;
-        setTimeout(typing,100);
+        setTimeout(typing, 100);
     }
 }
 typing();
