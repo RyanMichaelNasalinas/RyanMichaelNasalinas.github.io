@@ -47,8 +47,8 @@ nav {
 }
 
 .nav-links a:hover {
-    color: orange;
-    border-bottom: 5px solid orange;
+    color: #99ff99;
+    border-bottom: 5px solid #99ff99;
     transition: 0.4s;
 }
 
