@@ -66,8 +66,8 @@ nav {
 }
 
 .nav-links li a.active {
-    color: orange;
-    border-bottom: 5px solid orange;
+    color: #99ff99;
+    border-bottom: 5px solid #99ff99;
 }
 
 
