@@ -52,10 +52,6 @@ nav {
     transition: 0.4s;
 }
 
-.nav-links {
-    overflow: hidden;
-}
-
 .nav-colored {
     background-color: #000;
 }
