@@ -103,3 +103,20 @@ document.getElementById('year').innerHTML = year;
 navSlide();
 
 
+//Collapsible
+var collapse = document.getElementsByClassName("collapsible");
+var id;
+
+for (id = 0; id < collapse.length; id++) {
+    collapse[id].addEventListener("click", function () {
+        this.classList.toggle("collapse-active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+
+

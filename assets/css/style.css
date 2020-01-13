@@ -1,22 +1,19 @@
-/* Body */
 body {
     position: relative;
     margin: 0;
     padding: 0;
     font-family: "Arial", Times, serif;
-    width: 100%;
+    width: 100%
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
-/* Navbar */
-
 nav {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
 nav {
@@ -26,54 +23,49 @@ nav {
     min-height: 8vh;
     color: black;
     width: 100%;
-    padding: 5px;
+    padding: 5px
 }
 
 .nav-sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 40%
 }
 
 .nav-links li {
-    list-style: none;
+    list-style: none
 }
 
 .nav-links a:hover {
     color: #99ff99;
     border-bottom: 5px solid #99ff99;
-    transition: 0.4s;
+    transition: .4s
 }
 
 .nav-colored {
-    background-color: #000;
+    background-color: #000
 }
 
 .scrolled {
     background-image: linear-gradient(45deg, #525252, #3d72b4);
-    transition: 1s;
+    transition: 1s
 }
 
 .nav-links li a.active {
     color: #99ff99;
-    border-bottom: 5px solid #99ff99;
+    border-bottom: 5px solid #99ff99
 }
 
-
-
-/* //Navbar */
-
-/* Mobile Menu */
 .burger {
     display: none;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .burger div {
@@ -81,32 +73,26 @@ nav {
     height: 3px;
     background-color: white;
     margin: 5px;
-    transition: all 0.3s ease;
+    transition: all .3s ease
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px)
 }
 
 .toggle .line2 {
-    opacity: 0;
+    opacity: 0
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px)
 }
-
-/* //Mobile Menu */
 
 a:hover {
-    color: #000;
+    color: #000
 }
 
-/* Body Area */
-.about-area,
-.skills-area,
-.service-area,
-.contact-area {
+.about-area, .skills-area, .service-area, .contact-area {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -115,78 +101,70 @@ a:hover {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding: 50px 0px;
+    padding: 50px 0
 }
 
 .service-area .text-part p {
-    text-align: center;
+    text-align: center
 }
 
 .text-part {
     width: 90%;
-    height: 80%;
+    height: 80%
 }
 
 p {
-    /* font-size: 20px; */
-    line-height: 26px;
+    line-height: 26px
 }
 
-/* About area */
 .flex-about {
-    display: flex;
+    display: flex
 }
 
 .about-me-heading {
     font-size: 50px;
-    font-family: 'Playfair Display SC',
-        serif;
+    font-family: 'Playfair Display SC', serif
 }
 
 .about-me-sub-heading {
-    font-family: 'Taviraj',
-        serif;
+    font-family: 'Taviraj', serif
 }
 
 .about-column {
     border: 1px solid lightgray;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 .flex-col {
     flex: 1;
-    margin: 10px;
+    margin: 10px
 }
 
 .img-responsive {
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 .skills-gallery {
     margin: 10px;
     float: left;
-    width: 100px;
+    width: 100px
 }
 
 .skills-gallery img {
     width: 75% !important;
     display: block;
     margin: auto;
-    display: block;
+    display: block
 }
 
-.portfolio-center {
-    text-align: center;
-}
 
-/* Column Design */
 
 .column-66 {
     float: left;
     width: 66.66666%;
-    padding: 20px;
+    padding: 20px
 }
 
 .column-33 .about-img {
@@ -195,275 +173,378 @@ p {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 100%;
-
+    border-radius: 100%
 }
 
 .column-33 .about-img:hover {
-    box-shadow: 0 4px 8px 0 #2c3e50,
-        0 6px 20px 0 #2c3e50;
-    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 #2c3e50, 0 6px 20px 0 #2c3e50;
+    transition: .5s
 }
 
 .column-66 .about-me {
     font-size: 18px;
     text-align: justify;
-    font-family: 'Taviraj',
-        serif;
+    font-family: 'Taviraj', serif
 }
 
 .column-66 .accounts {
-    margin-top: 140px;
+    margin-top: 140px
 }
 
 .column-66 .accounts h3 {
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 .column-66 .social-media li {
     list-style: none;
-    display: inline;
+    display: inline
 }
 
 .column-66 .social-media li img:hover {
     transform: scale(1.5, 1.5);
-    -webkit-transition: transform 0.5s;
-    transition: transform 0.5s;
+    -webkit-transition: transform .5s;
+    transition: transform .5s
 }
 
 .column-66 .social-media li a {
-    text-align: center;
+    text-align: center
 }
 
 .column-66 h2 {
-    font-size: 29px;
+    font-size: 29px
 }
 
 .column-33 {
     float: left;
     width: 33.33333%;
-    padding: 20px;
+    padding: 20px
 }
 
 .column-50 {
     float: left;
     width: 50%;
-    padding: 20px;
+    padding: 20px
 }
 
 .column {
     margin: auto 0;
     width: 100%;
-    padding: 20px;
+    padding: 20px
 }
 
 .column .content .skills li img {
-    margin: 10px;
+    margin: 10px
 }
 
-/* //End About */
-
-.skills-area,
-.contact-area {
+.skills-area, .contact-area {
     background-image: linear-gradient(45deg, #2c3e50, #3498db);
-    color: black;
+    color: black
 }
 
 .contact-area .text-part .contact-info p {
     text-align: center;
-    font-size: 100%;
+    font-size: 100%
 }
 
 .container .row h1 {
-    text-align: center;
+    text-align: center
 }
 
 .column .contact-me {
     margin: auto;
-    width: 50%;
+    width: 50%
 }
 
-/* Body Area */
-
-
-/* Responsive web design */
 .project_lists {
     text-align: center;
     list-style: none;
-    display: inline;
+    display: inline
 }
 
 .project_lists a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .container-about {
     padding: 70px;
-    margin: auto;
+    margin: auto
 }
 
 .container-about .row h1 {
-    text-align: center;
+    text-align: center
 }
 
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: table
 }
 
-/* //Responsive web design */
-
-
-/* Card Design */
 .card {
     padding: 16px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    border-radius: 20px
 }
 
 .card .title {
     margin-top: 20px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Taviraj', serif;
+    font-family: 'Taviraj', serif
 }
 
 .card .content ul li {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
-    display: inline;
+    padding: 0;
+    margin: 0;
+    display: inline
 }
 
-/* //Card Design */
-
-
-/* Footer */
 .footer {
     background-color: rgba(217, 217, 217, 0.5);
     padding: 50px;
-    text-align: center;
+    text-align: center
 }
 
-/* //Footer */
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
 
-
-/* For Smooth Scrolling */
 html {
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
-    -moz-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth
 }
+/* Buttons */
 
-/* //For Smooth Scrolling */
-
-
-/* Button Design */
 .btn {
     background-color: white;
-    border: none;
+    border: 0;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    cursor: pointer
 }
 
 .btn-works {
     background-color: transparent;
     color: white;
-    border: 2px solid white;
+    border: 2px solid white
 }
 
 .btn-works:hover {
     background-color: white;
-    color: black;
+    color: black
 }
 
 .btn-resume {
     background-color: black;
-    border: none;
+    border: 0;
     color: white;
     padding: 5px 18px;
     cursor: pointer;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 5px
+}
+
+.btn-details {
+    background-color: transparent;
 }
 
 .btn-resume:hover {
     background-color: #3498db;
     color: white;
-    transition: background-color 1s;
+    transition: background-color 1s
 }
 
-/* //Button Design */
+/* //Buttons */
 
-/* Banner Text Designs */
+.info {
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+
+.info:hover {
+    background-image: linear-gradient(45deg, #2c3e50, #3498db);
+    color: white;
+    transition: 1s ease;
+}
 
 h1.banner-main {
-    font-size: 70px;
+    font-size: 70px
 }
 
 h2.banner-submain {
-    font-size: 40px;
+    font-size: 40px
 }
 
 .banner-intro .btn {
     font-size: 1.5rem;
     border-radius: 5px;
-    font-family: 'Taviraj',
-        serif;
+    font-family: 'Taviraj', serif
 }
 
-/* //Banner Text Designs */
-
-/* Portfolio */
 .portfolio_main {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 20px
 }
 
 .portfolio_row {
     margin: 8px -16px;
 }
 
-.portfolio_row,
-.portfolio_row>.portfolio_column {
-    padding: 8px;
+.portfolio_row, .portfolio_row > .portfolio_column {
+    padding: 8px
 }
 
 .portfolio_column {
     float: left;
-    width: 25%;
+    width: 25%
 }
 
 .portfolio_row:after {
     content: "";
     display: table;
-    clear: both;
+    clear: both
 }
 
 .portfolio_content {
-    background-color: white;
-    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: .3s;
+    padding-bottom: 10px
 }
 
-/* //Portfolio */
+.portfolio_content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+}
+
+.portfolio_content img {
+    border-radius: 5px 5px 0 0
+}
+
+.portfolio-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.portfolio-title {
+    color: #3d72b4;
+    border-bottom: 5px solid #3d72b4;
+    font-weight: bold;
+}
+
+.portfolio-skills {
+    list-style-type: none;
+}
+
+.portfolio-skills li:before {
+     content: '\27A4';
+}
+
+.portfolio-skills li:hover {
+   color: #3d72b4;
+}
+
+.portfolio-repo {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.portfolio-repo a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.portfolio-repo a:hover {
+    text-decoration: underline;
+    color: #3d72b4;
+}
+
+/* Collapsible */
+.collapsible {
+    background-color: #4d4d4d;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.collapsible:after {
+    content: '\25BC';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.collapsible-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out; 
+    background-color: #f1f1f1;
+    margin: 10px 10px 10px 10px;
+}
+
+.collapse-active, .collapsible:hover {
+    background-image: linear-gradient(45deg, #2c3e50, #3498db);
+}
+
+.collapse-active:after {
+    content: "\25B2";
+}
 
 
+/* //Collapsible */
 
+/* Contact */
+.contact_link {
+    color: black;
+}
 
+#contact_fb:hover {
+    color: #3B5998;
+    cursor: pointer;
+}
 
+#contact_gh:hover {
+    color: #6cc644;
+    cursor: pointer;
+}
 
-/* Media Query */
+#contact_li:hover {
+    color: #0E76A8;
+}
+/* //Contact */
+
 @media screen and (max-width:1200px) {
     .nav-links {
-        width: 50%;
+        width: 50%
     }
 
     .banner-area {
@@ -476,20 +557,20 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
 
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
-        text-align: center;
+        text-align: center
     }
 
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Sirin Stencil', cursive;
+        font-family: 'Sirin Stencil', cursive
     }
 
     .nav-links a {
@@ -498,24 +579,24 @@ h2.banner-submain {
         letter-spacing: 1px;
         font-weight: bold;
         font-size: 19px;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .flex-about {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .flex-about .flex-col img {
         width: 100%;
         display: block;
-        height: auto;
+        height: auto
     }
 }
 
 @media screen and (min-width:1200px) {
     .nav-links {
-        width: 40%;
+        width: 40%
     }
 
     .banner-area {
@@ -528,13 +609,13 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
 
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
-        text-align: center;
+        text-align: center
     }
 
     .logo {
@@ -542,7 +623,7 @@ h2.banner-submain {
         text-transform: uppercase;
         letter-spacing: 5px;
         font-size: 20px;
-        font-family: 'Sirin Stencil', cursive;
+        font-family: 'Sirin Stencil', cursive
     }
 
     .nav-links a {
@@ -550,22 +631,22 @@ h2.banner-submain {
         text-decoration: none;
         letter-spacing: 1px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .column-66 .about-sentence {
-        margin-top: 0px;
+        margin-top: 0
     }
 }
 
 @media screen and (max-width:1024px) {
     .nav-links {
-        width: 60%;
+        width: 60%
     }
 
     .container {
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: hidden
     }
 
     .banner-area {
@@ -578,20 +659,20 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
 
     .banner-area>.banner-intro {
         position: absolute;
         top: 100px;
-        text-align: center;
+        text-align: center
     }
 
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Sirin Stencil', cursive;
+        font-family: 'Sirin Stencil', cursive
     }
 
     .nav-links a {
@@ -600,50 +681,49 @@ h2.banner-submain {
         letter-spacing: 1px;
         font-weight: bold;
         font-size: 18px;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .flex-about {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .flex-about .flex-col img {
         width: 100%;
-        display: block;
+        display: block
     }
 
     h1.banner-main {
-        font-size: 40px;
+        font-size: 40px
     }
 
     h2.banner-submain {
-        font-size: 20px;
+        font-size: 20px
     }
 
     .banner-intro .btn {
         font-size: 1rem;
         border-radius: 5px;
-        font-family: 'Taviraj',
-            serif;
+        font-family: 'Taviraj', serif
     }
 
     .column-66 .about-sentence {
-        margin-top: 0px;
+        margin-top: 0
     }
 
     .column-66 .about-sentence h2 {
-        font-size: 22px;
+        font-size: 22px
     }
 
     .column-66 .about-sentence p {
-        font-size: 18px;
+        font-size: 18px
     }
 }
 
 @media screen and (max-width:900px) {
     .portfolio_column {
-        width: 50%;
+        width: 50%
     }
 }
 
@@ -651,7 +731,7 @@ h2.banner-submain {
 
     html,
     body {
-        overflow-x: hidden;
+        overflow-x: hidden
     }
 
     .banner-area {
@@ -664,13 +744,13 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
 
     .banner-area>.banner-intro {
         position: absolute;
         top: 50px;
-        text-align: center;
+        text-align: center
     }
 
     .nav-links {
@@ -684,23 +764,23 @@ h2.banner-submain {
         align-items: center;
         width: 100%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-out;
-        z-index: 1;
+        transition: transform .5s ease-out;
+        z-index: 1
     }
 
     .nav-links li {
-        opacity: 0;
+        opacity: 0
     }
 
     .burger {
-        display: block;
+        display: block
     }
 
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Sirin Stencil', cursive;
+        font-family: 'Sirin Stencil', cursive
     }
 
     .nav-links a {
@@ -709,83 +789,82 @@ h2.banner-submain {
         letter-spacing: 3px;
         font-weight: bold;
         font-size: 16px;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .flex-about {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .flex-about .flex-col img {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .column-66,
     .column-33 {
         width: 100%;
         text-align: center;
-        display: flex;
+        display: flex
     }
 
     .container-about {
-        padding: 0px;
+        padding: 0
     }
 
     .column-66 .about-sentence {
-        margin-top: 0px;
+        margin-top: 0
     }
 
     .column-66 h2 {
         font-size: 24px;
-        text-indent: 20px;
+        text-indent: 20px
     }
 
     .column-66 .about-me {
         font-size: 17px;
-        font-family: 'Taviraj',
-            serif;
+        font-family: 'Taviraj', serif
     }
 
     .column .accounts {
-        margin-top: 50px;
+        margin-top: 50px
     }
 
     .column-50 {
         width: 100%;
         text-align: center;
-        padding: 5px 5px;
+        padding: 5px 5px
     }
 
     .column {
-        padding: 5px 5px;
+        padding: 5px 5px
     }
 
     .contact-area .text-part .contact-info p {
         text-align: center;
-        font-size: 90%;
+        font-size: 90%
     }
 
     .about-me-heading {
-        font-size: 30px;
+        font-size: 30px
     }
 
     .about-column {
-        border: none;
+        border: 0;
         border-radius: 0;
-        box-shadow: 0px 0px;
+        box-shadow: 0
     }
 }
 
 @media screen and (max-width:600px) {
     .nav-links {
-        width: 100%;
+        width: 100%
     }
 
     .container {
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: hidden
     }
 
     .banner-area {
@@ -798,21 +877,21 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
 
     .banner-area>.banner-intro {
         position: absolute;
         top: 60px;
         text-align: center;
-        padding: 5px;
+        padding: 5px
     }
 
     .logo {
         color: white;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Sirin Stencil', cursive;
+        font-family: 'Sirin Stencil', cursive
     }
 
     .nav-links a {
@@ -820,45 +899,44 @@ h2.banner-submain {
         text-decoration: none;
         letter-spacing: 3px;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .flex-about {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .flex-about .flex-col img {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .column-50 {
         width: 100%;
-        text-align: center;
+        text-align: center
     }
 
     h1.banner-main {
-        font-size: 40px;
+        font-size: 40px
     }
 
     h2.banner-submain {
-        font-size: 20px;
+        font-size: 20px
     }
 
     .banner-intro .btn {
         font-size: 1rem;
         border-radius: 5px;
-        font-family: 'Taviraj',
-            serif;
+        font-family: 'Taviraj', serif
     }
 
     .portfolio_column {
-        width: 100%;
+        width: 100%
     }
 
     .about-me-heading {
-        font-size: 30px;
+        font-size: 30px
     }
 }
 
@@ -873,30 +951,22 @@ h2.banner-submain {
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-background-size: cover;
-        color: white;
+        color: white
     }
-
 }
 
-/*  //Media Query */
-
-/* Animation */
 @keyframes navLinkFade {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(50px)
     }
 
     to {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px)
     }
 }
-
-/* Toggle this class using JavaScript */
 .nav-active {
     transform: translateY(0%);
-    background-image: linear-gradient(90deg, #525252, #3d72b4);
+    background-image: linear-gradient(90deg, #525252, #3d72b4)
 }
-
-/* End */
