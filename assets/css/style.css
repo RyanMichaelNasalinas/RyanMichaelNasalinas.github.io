@@ -127,7 +127,8 @@ p {
 }
 
 .about-me-sub-heading {
-    font-family: 'Taviraj', serif
+    font-family: 'Taviraj', serif;
+    text-align: center;
 }
 
 .about-column {
