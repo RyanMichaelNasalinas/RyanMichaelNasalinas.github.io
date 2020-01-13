@@ -528,17 +528,17 @@ h2.banner-submain {
     color: black;
 }
 
-#contact_fb:hover {
+.contact_fb:hover {
     color: #3B5998;
     cursor: pointer;
 }
 
-#contact_gh:hover {
+.contact_gh:hover {
     color: #614385;
     cursor: pointer;
 }
 
-#contact_li:hover {
+.contact_li:hover {
     color: #0E76A8;
 }
 /* //Contact */
