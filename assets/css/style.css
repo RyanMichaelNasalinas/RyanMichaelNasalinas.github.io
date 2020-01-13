@@ -160,8 +160,6 @@ p {
     display: block
 }
 
-
-
 .column-66 {
     float: left;
     width: 66.66666%;
@@ -367,7 +365,6 @@ html {
     color: white;
     transition: background-color 1s
 }
-
 /* //Buttons */
 
 .info {
@@ -520,8 +517,6 @@ h2.banner-submain {
 .collapse-active:after {
     content: "\25B2";
 }
-
-
 /* //Collapsible */
 
 /* Contact */
