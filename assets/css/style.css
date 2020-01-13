@@ -381,7 +381,8 @@ html {
 }
 
 h1.banner-main {
-    font-size: 70px
+    font-size: 70px;
+    margin-bottom: 0px;
 }
 
 h2.banner-submain {
