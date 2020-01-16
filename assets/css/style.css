@@ -44,9 +44,11 @@ nav {
 }
 
 .nav-links a:hover {
+    /* 
+        border-bottom: 5px solid #99ff99;
+        transition: .4s 
+    */
     color: #99ff99;
-    border-bottom: 5px solid #99ff99;
-    transition: .4s
 }
 
 .nav-colored {
@@ -59,8 +61,8 @@ nav {
 }
 
 .nav-links li a.active {
-    color: #99ff99;
-    border-bottom: 5px solid #99ff99
+    /* color: none;
+    border-bottom: 5px solid #none; */
 }
 
 .burger {
