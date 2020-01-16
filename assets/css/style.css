@@ -63,6 +63,7 @@ nav {
 .nav-links li a.active {
     /* color: none;
     border-bottom: 5px solid #none; */
+     color: #99ff99;
 }
 
 .burger {
