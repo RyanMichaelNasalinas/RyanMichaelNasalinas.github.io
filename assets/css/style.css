@@ -248,6 +248,11 @@ p {
     font-size: 100%
 }
 
+#contact {
+    position: relative;
+    top: 50px;
+}
+
 .container .row h1 {
     text-align: center
 }
