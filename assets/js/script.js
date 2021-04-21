@@ -83,7 +83,7 @@ const navSlide = () => {
 
 // Banner Typing Effect
 var i = 0;
-var text = "Dreamer + Passionate + Hard Working + Continous Learner";
+var text = "Lorem + Ipsum + Dolor Sit + Amet";
 
 function typing() {
     if (i < text.length) {
